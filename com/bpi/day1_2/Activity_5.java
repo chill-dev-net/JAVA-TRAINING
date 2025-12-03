@@ -1,4 +1,4 @@
-package com.bpi.day1;
+package com.bpi.day1_2;
 
 public class Activity_5 {
 
