@@ -1,4 +1,4 @@
-package com.bpi.day4.SeatWork_3;
+package com.bpi.day5.SeatWork_3;
 
 public interface Executable {
 	void run();
