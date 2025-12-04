@@ -1,4 +1,4 @@
-package com.bpi.day3.M2;
+package com.bpi.day3_M2;
 
 public class Person {
 

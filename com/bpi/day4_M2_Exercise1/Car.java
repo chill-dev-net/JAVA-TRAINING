@@ -1,4 +1,4 @@
-package com.bpi.day4.M2_Exercise1;
+package com.bpi.day4_M2_Exercise1;
 
 public class Car {
 	private String owner;

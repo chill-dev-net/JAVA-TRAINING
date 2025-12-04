@@ -1,4 +1,4 @@
-package com.bpi.day3.M2_SeatWork1;
+package com.bpi.day3_M2_SeatWork1;
 
 public class SeatWork_1 {
 
