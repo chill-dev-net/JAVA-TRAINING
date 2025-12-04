@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Group_Project {
 	static Scanner input = new Scanner(System.in);
-	static String choice = "";
+	static char choice;
 	static boolean isMenu = true;
 	static String[] arr_stud_record = new String[5];
 	static ArrayList<Integer> arr_stud_grade = new ArrayList<>();
@@ -16,19 +16,23 @@ public class Group_Project {
 		while (isMenu) {
 			main_menu();
 			switch (choice) {
-			case "A": {
+			case 'A': {
 				add_student_info();
 				break;
 			}
-			case "B": {
-				compute_student_ave();
+			case 'B': {
+				try {
+					compute_student_ave();
+				} catch (ArithmeticException e) {
+					System.out.println("No data to compute!");
+				}
 				break;
 			}
-			case "C": {
+			case 'C': {
 				display_student_info();
 				break;
 			}
-			case "D": {
+			case 'D': {
 				isMenu = false;
 				System.out.println("Thank you. Goodbye!!!");
 				break;
@@ -47,7 +51,7 @@ public class Group_Project {
 		System.out.println("C = Display Student Information");
 		System.out.println("D = Exit");
 		System.out.print("Enter choice: ");
-		choice = input.next();
+		choice = input.next().toUpperCase().charAt(0);
 	}
 
 	public static void add_student_info() {
