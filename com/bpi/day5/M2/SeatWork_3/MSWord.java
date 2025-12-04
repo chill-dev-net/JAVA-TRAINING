@@ -1,4 +1,4 @@
-package com.bpi.day5.SeatWork_3;
+package com.bpi.day5.M2.SeatWork_3;
 
 public class MSWord implements Executable {
 	@Override

@@ -1,4 +1,4 @@
-package com.bpi.day5.Exercise_2;
+package com.bpi.day5.M2.Exercise_2;
 
 class Car extends Vehicle implements Refuelable {
 	Car(int numberOfWheels, String brand) {
